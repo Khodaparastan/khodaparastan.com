@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>محمد خداپرستان</title>
+
+  <link href="https://Khodaparastan.com/farsi/feed.xml" rel="self"/>
+  <link href="https://Khodaparastan.com/farsi"/>
+
+  <updated>2017-05-10T16:49:47+0430</updated>
+  <id>https://Khodaparastan.com/farsi</id>
+  
+  <author>
+    <name>Mohammad Khodaparastan</name>
+  </author>
+    
+  <generator>Mira</generator>
+
+  
+  <entry>
+    <title>پیشگفتار</title>
+    <link href="https://Khodaparastan.com/farsi/پیشگفتار/"/>
+    <id>https://Khodaparastan.com/farsi/پیشگفتار/</id>
+
+    <published>2017-05-10T10:48:32+0430</published>
+    <updated>2017-05-10T10:48:32+0430</updated>
+
+    <content type="html"><![CDATA[<a name="more"></a>
+<p>این بلاگ با هدف ثبت نظرات و تحلیل های من در بازار های مالی و به خصوص با تمرکز روی بورس ایران برپا شده .</p>
+
+<p>نظرات کاملا شخصی میباشند و بدون شک خالی از اشتباه نیست .</p>
+
+<p>سعی میکنم در خصوص معامله گری و به خصوص روانشناسی معامله گری هم مطالبی رو ثبت کنم .</p>
+
+<p>برای من هدف اصلی ثبت نظرات و دیدگاهای خودم در گذز زمان هست و بازگشت به اون ها در مواقع لازم و تحلیل اشتباهات خودم .</p>
+
+<p>برای آشنایی با من <a href="http://khodaparastan.com">درباره من</a> میتونید صفحه رو مطالعه کنید .</p>
+]]></content>
+
+    <summary>
+    &lt;p&gt;این بلاگ با هدف ثبت نظرات و تحلیل های من در بازار های مالی و به خصوص با تمرکز روی بورس ایران برپا شده .
+
+نظرات کاملا شخصی میباشند و بدون شک خالی از اشتباه نیست .
+
+سعی میکنم در خصوص معامله گری و به خصوص روانشناسی معامله گری هم مطالبی رو ثبت کنم .
+
+برای من هدف اصلی ثبت نظرات و دیدگاهای خودم در گذز زمان هست و بازگشت به اون ها در مواقع لازم و تحلیل اشتباهات خودم .
+
+برای آشنایی با من درباره من میتونید صفحه رو مطالعه کنید .
+&lt;/p&gt;
+    </summary>
+  </entry>
+  
+</feed>

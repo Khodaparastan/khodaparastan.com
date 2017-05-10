@@ -1,0 +1,29 @@
+<!-- /Content -->
+<!-- Footer -->
+<footer>
+    <!--<section class="copyright">
+        
+    </section>-->
+    <section class="container">
+      <div class="delimiter">
+        <a href="{{ MainROOT }}" class="logo">
+          <img src="{{ MainSTATIC }}/theme/mkh/img/logo.svg">
+        </a>
+      </div>
+      <p>
+        {{ IF SITE.language == 'Farsi' }}
+          Copyright © {{ FOREACH POSTS }}{{ CALENDAR.jyear | $FarsiNum }}{{ LAST }}{{ END }}<br> Khodaparastan.com
+        {{ ELSIF SITE.language == 'English' }}
+          Copyright © {{ BUILD.year }}<br> Khodaparastan.com
+          
+        {{ END }}
+      </p>
+    </section>
+</footer>
+<!-- /Footer -->
+
+<!-- Scripts -->
+<script src="{{ MainSTATIC }}/theme/mkh/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

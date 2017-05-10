@@ -1,0 +1,19 @@
+title: Mohammad Khodaparastan
+description: 
+author: Mohammad Khodaparastan
+language: English
+
+url: https://khodaparastan.com/
+root: /
+
+static: /static/
+imageurl: /img/
+
+default_extension: md
+
+permalink: :title/
+
+template: mkh
+disqus_shortname: Mohammad
+
+lists:
