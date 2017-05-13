@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Khodaparastan's Blog",
   "main": "index.js",
-  "repository": "git@github.com:sallar/sallar.me.git",
+
   "author": "Mohammad Khodaparastan <mkhmac@gmail.com>",
   "license": "MIT",
   "scripts": {

@@ -1,4 +1,4 @@
-title: Mohammad Khodaparastan	
+title: Mohammad Khodaparastan
 description: Mohammad Khodaparastan / Trading Diary
 
 author: Mohammad Khodaparastan
@@ -18,10 +18,11 @@ feed_output: atom.xml
 default_floor: fa
 default_markup: mmd
 
-disqus_shortname: 
-google_analytics: 
+disqus_shortname: mkhmac
+google_analytics: UA-99040001-1
 
 twitter: https://twitter.com/mkhmac
 github: https://github.com/mkhmac
 tradingview: https://www.tradingview.com/u/mkhmac/
 telegram: https://t.me/mkhmac
+linkenin: 

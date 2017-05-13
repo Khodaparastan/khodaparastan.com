@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 .hljs {
     display: block;
     overflow-x: auto;
@@ -60,8 +61,8 @@
 }
 body,
 html {
-	background: #1d1d1d;
-    font: 17px/1.618 Anonymous Pro;
+	background: #1c1b1b;
+    font: 17px/1.618 Rubik;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility
@@ -71,18 +72,19 @@ html {
     margin: 0 auto
 }
 a {
-    color: #c4e8bf;
+    font-weight: 600;
+    color: #6fc7ff;
     text-decoration: none
 }
 a:hover {
-    text-decoration: blink
+    text-decoration: underline
 }
 ul {
     list-style-type: square
 }
 code,
 pre {
-    font-family: Anonymous Pro
+    font-family: Rubik
 }
 code {
     background-color: #333333!important;
@@ -93,11 +95,11 @@ pre {
     line-height: 1.618!important
 }
 blockquote {
-    color: #D9FCDE;
+    color: #ffc4c4;
     font-style: italic
 }
 hr {
-    border: 1px solid #ededed;
+    border: 1 px solid #577693;
     border-bottom: none;
     margin: 2rem 0
 }
@@ -115,7 +117,6 @@ hr {
     margin-right: 1rem;
     white-space: nowrap
 }
-
 
 .article-list h3{
     color: #fff
@@ -138,8 +139,8 @@ hr {
     color: #ffffff
 }
 .article h4{
-    color: #fa0000;
-    font-size: 0.8rem  
+    color: #679d60;
+    font-size: 0.8rem
 }
 .article .time {
     color: #dfdfff;
@@ -153,21 +154,9 @@ hr {
     margin: 0 auto 1rem;
     display: block
 }
-.delimiter {
-    border-top: 1px solid #ededed
-}
-.delimiter .logo {
-    transform: translateY(-50%);
-    width: 3rem;
-    height: 3rem;
-    display: block;
-    margin: 0 auto;
-    padding: 0 1rem;
-    background-color: #1d1d1d
-}
-.delimiter .logo img {
-    display: block;
-    max-width: 100%
+.social {
+    border-top: 1.5px solid #2a72b4
+
 }
 .comments {
     margin-top: 5rem
@@ -210,7 +199,7 @@ hr {
 header nav {
     margin: 2rem 0;
     padding: 0 0 1rem;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1.5px solid #2a72b4;
     display: -ms-flexbox;
     display: flex
 }
@@ -240,11 +229,11 @@ header nav a {
     color: #ffffff
 }
 footer {
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 0 0 3rem
 }
 footer p {
-    margin: 0;
+    margin: 0.7rem;
     text-align: center;
     font-size: .9rem;
     color: #DCDCDC
@@ -252,9 +241,12 @@ footer p {
 footer p a {
     color: #DCDCDC
 }
+.social{
+  text-align: center;
+}
 html[lang=Farsi] body,
 html[lang=Farsi] html {
-    font-family: Sahel, Anonymous Pro
+    font-family: Sahel, Rubik
 }
 html[lang=Farsi] .container {
     direction: rtl
@@ -278,4 +270,5 @@ html[lang=Farsi] .pagination nav a {
 html[lang=Farsi] .pagination nav a.next {
     text-align: left
 }
+
 body {-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
