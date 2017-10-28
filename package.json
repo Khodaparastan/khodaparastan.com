@@ -1,23 +1,24 @@
 {
-  "name": "Khodaparastan.com",
-  "version": "3.0.0",
-  "description": "Khodaparastan's Blog",
-  "main": "index.js",
-
-  "author": "Mohammad Khodaparastan <mkhmac@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "grunt",
-    "build": "grunt build && mira build",
-    "deploy": "npm run build && rsync -r ./public/ root@khodaparastan.com:/var/www/khodaparastan.com/"
+  "name": "farsi",
+  "author": "Pooya Golchian <pooya.golchian@gmail.com>",
+  "homepage": "pooyagolchian.ir",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "cssnano": "^3.10.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-postcss": "^0.8.0",
-    "grunt-sass": "^2.0.0",
-    "load-grunt-tasks": "^3.5.2"
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-imagemin": "~0.2.0",
+    "grunt-svgmin": "~0.2.0"
   }
 }

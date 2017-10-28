@@ -1,38 +1,84 @@
-module.exports = function (grunt) {
-  require('load-grunt-tasks')(grunt);
+'use strict';
+module.exports = function(grunt) {
 
   grunt.initConfig({
-    sass: {
+    jshint: {
       options: {
-        sourceMap: false
+        jshintrc: '.jshintrc'
       },
+      all: [
+        'Gruntfile.js',
+        'assets/js/*.js',
+        'assets/js/plugins/*.js',
+        '!assets/js/scripts.min.js'
+      ]
+    },
+    uglify: {
       dist: {
         files: {
-          'statics/theme/mkh/css/style.css': 'statics/theme/mkh/sass/style.scss'
+          'assets/js/scripts.min.js': [
+            'assets/js/plugins/*.js',
+            'assets/js/_*.js'
+          ]
         }
       }
     },
-    postcss: {
-      options: {
-        map: false,
-
-        processors: [
-          require('autoprefixer')({ browsers: 'last 2 versions' }), // add vendor prefixes
-          require('cssnano')() // minify the result
-        ]
-      },
+    imagemin: {
       dist: {
-        src: 'statics/theme/mkh/css/*.css'
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'images/',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: 'images/'
+        }]
+      }
+    },
+    svgmin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'images/',
+          src: '{,*/}*.svg',
+          dest: 'images/'
+        }]
       }
     },
     watch: {
-      styles: {
-        files: ['statics/theme/mkh/sass/*.scss'],
-        tasks: ['sass', 'postcss']
+      js: {
+        files: [
+          '<%= jshint.all %>'
+        ],
+        tasks: ['uglify']
       }
+    },
+    clean: {
+      dist: [
+        'assets/js/scripts.min.js'
+      ]
     }
   });
 
-  grunt.registerTask('default', ['build', 'watch']);
-  grunt.registerTask('build', ['sass', 'postcss']);
+  // Load tasks
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-svgmin');
+
+  // Register tasks
+  grunt.registerTask('default', [
+    'clean',
+    'uglify',
+    'imagemin',
+    'svgmin'
+  ]);
+  grunt.registerTask('dev', [
+    'watch'
+  ]);
+
 };
