@@ -1,0 +1,23 @@
+title: محمد خداپرستان
+description:
+author: Mohammad Khodaparastan
+language: Farsi
+
+url: https://Khodaparastan.com/farsi/
+root: /farsi/
+
+static: /farsi/static/
+imageurl: /farsi/img/
+
+default_extension: md
+
+permalink: :title/
+
+template: mkh
+
+lists:
+
+namespace:
+
+plugins:
+ - Jdate
