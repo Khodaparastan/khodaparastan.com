@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+# Configuration
+title: "محمد خداپرستان"
+author: "Mohammad Kh"
+email: "al.aghamohammadi@gmail.com"
+baseurl: ""
+url: "http://khodaparastan.com"
+keywords: "برنامه‌نویسی، کامپیوتر، صنعتی شریف، متن‌باز، پایتون، جاوا"
+description: "غذا، فیلم و فناوری اطلاعات"
+repository_url: "https://github.com/aaghamohammadi/aaghamohammadi.github.io"
+permalink: /blog/:year/:month/:day/:title/
+google_analytics: UA-102498614-1

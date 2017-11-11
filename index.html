@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<ul>
+    {% for post in site.posts %}
+    <li class="post-list">
+        <span>
+            {{ post.pdate }}
+        </span>
+
+        <span>
+            <a class="post-link" href={{ post.url }}>{{ post.title }}</a>
+        </span>
+    </li>
+    {% endfor %}
+</ul>
