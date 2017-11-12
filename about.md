@@ -10,5 +10,3 @@ I mOstly take my lOng term pOsitions on Tehran stock market's Companies and my s
 
 I Use 3 timeframes simultaneously for finding Supports and resistances On the chart but for taking Position I mOstly use 1H and sometimes 30min depends on the volatility of market .
 You can Contact me via [Mail](mailto:mkhmac@gmail.com)
-
-My Social Network Profiles are linked under pages .
