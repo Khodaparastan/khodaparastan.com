@@ -1,6 +1,6 @@
 # main text of home
 name: Mohammad Khodaparastan
-bio: Market Trader
+bio: Vaule Investor - Price Action Trader
 
 # twitter summary info
 description:
@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+#resume-url: https://google.com/?q=my+resume
 
 url: https://Khodaparastan.com
 # your url: http://USERNAME.github.io
